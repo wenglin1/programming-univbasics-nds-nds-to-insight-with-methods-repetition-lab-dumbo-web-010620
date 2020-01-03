@@ -33,6 +33,8 @@ def list_of_directors(source)
     count += 1
   end
   result
+end
+
 def total_gross(source)
   # Write this implementation
   #
