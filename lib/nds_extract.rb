@@ -53,5 +53,5 @@ def total_gross(source)
     total += dir_totals[name[name_count]]
     name_count +=1
   end
-  grand_total
+  total
 end
