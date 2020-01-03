@@ -49,9 +49,9 @@ def total_gross(source)
   names = list_of_directors(source)
   name_count = 0
   total = 0
-  while name[name_count] do
-    total += dir_totals[name[name_count]]
-    name_count +=1
+  while names[name_count] do
+    total += dir_totals[names[name_count]]
+    name_count += 1
   end
   total
 end
