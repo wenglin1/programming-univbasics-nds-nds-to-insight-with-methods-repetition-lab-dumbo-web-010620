@@ -45,4 +45,5 @@ def total_gross(source)
     grand_total += list_of_directors(source,row_index)
     row_index +=1
   end
+  grand_total
 end
