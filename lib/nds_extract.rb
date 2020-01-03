@@ -29,7 +29,7 @@ def list_of_directors(source)
   list = []
   count = 0
   while source[count] do
-    list.push(source[count][:name])
+    list << source[count][:name]
     count += 1
   end
   result
